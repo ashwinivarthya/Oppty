@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Table</title>
+</head>
+
+<body>
+    <table width="100%" cellpadding="8" cellspacing="0" border="1">
+        <tr>
+            <td colspan="2">
+                <table width="100%">
+                    <tr>
+                        <td>
+                            <img src="logo.png" alt-text="logo" width="50" height="50">
+                        </td>
+                        <td align="right">
+                            <a href="#about">About</a>
+                            <a href="#projects">Projects</a>
+                            <a href="#skills">Skills</a>
+                            <a href="#gallery">Gallery</a>
+                            <a href="#blog">Blog</a>
+                            <a href="#contact">Contact</a>
+                            <a href="#faq">FAQ</a>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td width="70%" id="about">
+                <h2>About Me</h2>
+                <img src="profile.png" alt-text="ashwini" width="200" height="250">
+                <p>Hello! I'm Ashwini, a passionate web developer with a knack for creating beautiful and functional
+                    websites.I love coding and am always eager to learn new technologies.</p>
+                <dl>
+                    <dt>Role</dt>
+                    <dd>Front-end Developer</dd>
+
+                    <dt>Experience</dt>
+                    <dd>3 years</dd>
+
+                    <dt>Location</dt>
+                    <dd>Bangalore, India</dd>
+                </dl>
+            </td>
+        </tr>
+        <tr>
+            <td width="60%" id="projects" valign="top">
+                <h2>Projects</h2>
+                <table width="100%" cellpadding="6" cellspacing="0" border="1">
+                    <caption><strong>Projects List</strong></caption>
+                    <thead>
+                        <tr>
+                            <th>Project</th>
+                            <th>Role</th>
+                            <th>Technology</th>
+                        </tr>
+                    </thead>
+                    <tbody align="center">
+                        <tr>
+                            <td>Jobnest Portal</td>
+                            <td>Front-end Developer</td>
+                            <td>React.js</td>
+                        </tr>
+                        <tr>
+                            <td>Portfolio</td>
+                            <td>Developer</td>
+                            <td>HTML only</td>
+                        </tr>
+                        <tr>
+                            <td>My Portfolio</td>
+                            <td>Developer & Designer</td>
+                            <td>HTML, CSS</td>
+                        </tr>
+                    </tbody>
+                    <tfoot align="center">
+                        <tr>
+                            <td colspan="4">Total Projects: 3</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td id="skills" valign="top" colspan="2">
+                <h2>Skills</h2>
+                <p>HTML</p>
+                <progress value="90" max="100">90%</progress> <br>
+                <p>CSS</p>
+                <progress value="80" max="100">80%</progress> <br>
+                <p>JavaScript</p>
+                <progress value="70" max="100">70%</progress> <br>
+            </td>
+        </tr>
+        <tr>
+            <td id="gallery" colspan="2" valign="top">
+                <h2>Gallery</h2>
+            </td>
+        </tr>
+        <tr>
+            <td id="blog" colspan="2" valign="top">
+                <h2>Blog</h2>
+                <article>
+                    <h3>How I Built My Portfolio Website</h3>
+                    <p>I started creating my portfolio using only HTML. It helped me understand structure, tags, and how
+                        each element works together. This was my first step towards becoming a web developer.</p>
+                    <p><i>Posted on:</i> October 29, 2025</p>
+                </article>
+
+                <article>
+                    <h3>Top 5 HTML Tags Every Beginner Should Know</h3>
+                    <p>Learning HTML is fun! The most useful tags are &lt;div&gt;, &lt;p&gt;, &lt;a&gt;, &lt;img&gt;,
+                        &lt;form&gt;
+                        and &lt;table&gt;. Once you understand these, building web pages becomes easy.</p>
+                    <p><em>Posted on:</em> October 20, 2025</p>
+                </article>
+
+                <article>
+                    <h3>My Journey into Web Development</h3>
+                    <p>
+                        My web development journey started with learning HTML basics. Over time, I explored CSS for
+                        styling
+                        and JavaScript for interactivity. Each project I build helps me improve my creativity and
+                        problem-solving skills.
+                    </p>
+                    <p><em>Posted on:</em> October 12, 2025</p>
+                </article>
+
+                <article>
+                    <h3>Importance of Responsive Design</h3>
+                    <p>
+                        In today's digital world, websites must look great on every device. Responsive design ensures
+                        that content adjusts automatically for mobiles, tablets, and desktops, improving user experience
+                        everywhere.
+                    </p>
+                    <p><em>Posted on:</em> October 2, 2025</p>
+                </article>
+
+                <article>
+                    <h3>Tips for Beginners in Web Design</h3>
+                    <p>
+                        Start small — build simple pages, learn layouts using Flexbox or Grid, and always focus on user
+                        experience.
+                        The best way to learn is by practicing and exploring new design ideas daily.
+                    </p>
+                    <p><em>Posted on:</em> September 28, 2025</p>
+                </article>
+
+                <aside>
+                    <h4>Recent Posts</h4>
+                    <ul>
+                        <li>How I Built My Portfolio Website</li>
+                        <li>Top 5 HTML Tags Every Beginner Should Know</li>
+                        <li>My Journey into Web Development</li>
+                        <li>Importance of Responsive Design</li>
+                        <li>Tips for Beginners in Web Design</li>
+                    </ul>
+                </aside>
+            </td>
+        </tr>
+        <tr>
+            <td id="contact" colspan="2" valign="top">
+                <h2>Contact</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="phone">Mobile Number:</label>
+                    <input type="tel" id="phone" name="phone" required><br><br>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" valign="top" id="faq">
+                <h2>FAQ</h2>
+                <details>
+                    <summary>What services do you offer?</summary>
+                    <p>I specialize in front-end web development using HTML, CSS, and JavaScript. I also create
+                        responsive websites and basic UI/UX designs.</p>
+                </details>
+                <details>
+                    <summary>Can I hire you for freelance projects?</summary>
+                    <p>Yes, I’m open to freelance work. You can contact me using the form in the “Contact” section.</p>
+                </details>
+                <details>
+                    <summary>How long does it take to complete a project?</summary>
+                    <p>It depends on the project size. Small websites take about 1 week, while large ones may take 2–3
+                        weeks.</p>
+                </details>
+                <details>
+                    <summary>What tools or technologies do you use?</summary>
+                    <p>I mainly use Visual Studio Code, GitHub, and Figma. For coding, I work with HTML, CSS, and
+                        JavaScript.</p>
+                </details>
+
+                <details>
+                    <summary>Do you provide website maintenance?</summary>
+                    <p>Yes, I can help update and maintain websites after the project is completed.</p>
+                </details>
+
+                <details>
+                    <summary>How can I contact you?</summary>
+                    <p>You can reach me through the contact form, or email me at: ashwinivarthya31@gmail.com</p>
+                </details>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" valign="top" id="media">
+                <h2>Media</h2>
+                <p><strong>Audio:</strong></p>
+                <audio controls src="Namo Namo Ji Shankara.mp3">Your browser doesn't support audio.</audio>
+                <p><strong>Video:</strong></p>
+                <video controls width="500" src="my fav song.mp4">
+                    Your browser doesn't support video.</video>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" valign="top" align="center">
+                <p>&copy; <time datetime="2025-10-29">2025</time> Jadavath Varthya Ashwini</p>
+                <address>Sangareddy, Telangana, India</address>
+                <p>Last updated: <time datetime="2025-10-29">October 29, 2025</time></p>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
